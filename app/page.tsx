@@ -1,9 +1,8 @@
 'use client'
 
-import { Explanations } from "./showcase/Explanations";
-import HomeCandidate from '@/components/candidate/HomeCandidate';
-import Missions from "./showcase/Missions";
-import { Navigation } from './showcase/Navigation';
+import { Explanations } from "./components/showcase/Explanations";
+import Missions from "./components/showcase/Missions";
+import { Navigation } from "./components/showcase/Navigation";
 import { useState } from 'react';
 import React, { useEffect } from 'react'
 import { useRouter } from 'next/navigation'

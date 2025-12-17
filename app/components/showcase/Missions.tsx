@@ -1,4 +1,4 @@
-import { Role } from "../types/auth"
+import { Role } from "@/app/types/auth"
 import Image from 'next/image'
 import React from 'react'
 import { firstSection, secondSection, thirdSection, teamImages, partnersSection } from "./contentMissions"

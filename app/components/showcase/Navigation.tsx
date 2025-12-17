@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link";
-import { Role } from "../types/auth";
+import { Role } from "@/app/types/auth";
 
 interface NavButton {
     id: number;
