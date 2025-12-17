@@ -3,7 +3,6 @@ import { useState } from "react"
 import Link from "next/link";
 import { Role } from "../types/auth";
 
-
 interface NavButton {
     id: number;
     label: string;
