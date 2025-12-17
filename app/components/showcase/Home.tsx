@@ -4,7 +4,7 @@ import { useState, type ChangeEvent, type MouseEvent } from "react";
 import { CheckboxInput } from "../ui/form/input";
 import { toast } from "sonner";
 
-export default function HomeCandidate() {
+export default function Home() {
 
     const filters = [
         {
@@ -210,7 +210,7 @@ export default function HomeCandidate() {
 
     return (
         <div>
-            
+
             {/* SECTION SOCIAL COMMITMENT */}
             <section className="flex flex-col gap-6 justify-center items-center px-4 py-10">
                 <div className="flex flex-col gap-5 items-center justify-center text-center">

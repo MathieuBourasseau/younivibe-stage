@@ -1,6 +1,7 @@
 'use client'
 
 import { Explanations } from "./components/showcase/Explanations";
+import Home
 import Missions from "./components/showcase/Missions";
 import { Navigation } from "./components/showcase/Navigation";
 import { useState } from 'react';
