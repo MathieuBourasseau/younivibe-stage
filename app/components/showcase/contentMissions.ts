@@ -1,4 +1,4 @@
-import { Role } from "../types/auth";
+import { Role } from "@/app/types/auth";
 
 // Types
 
