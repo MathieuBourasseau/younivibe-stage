@@ -278,7 +278,7 @@ export default function Missions({ role }: MissionsProps) {
                         className="block w-full max-w-[490px] lg:max-w-[660px]"
                     />
                 </div>
-                <button className="text-[15px] px-6 py-4 bg-[#00DF7A] rounded-full text-white font-bold shadow-[0px_4px_4px_0px_#00000040] lg:hidden">Devenir partenaire</button>
+                <button className=" cursor-pointer text-[15px] px-6 py-4 bg-[#00DF7A] rounded-full text-white font-bold shadow-[0px_4px_4px_0px_#00000040] lg:hidden">Devenir partenaire</button>
             </section>
 
             {/* CONTACT SECTION */}
@@ -286,7 +286,7 @@ export default function Missions({ role }: MissionsProps) {
             <section className="px-10 py-10 bg-[linear-gradient(92.81deg,#2366FD_0.73%,#A848E4_100%)]">
                 <div className="flex flex-col gap-6 items-center">
                     <p className="text-sm text-white text-center md:text-base">Vous êtes étudiant·e, recruteur·se, responsable pédagogique, association, entreprise engagée ? Vous avez envie de faire partie du mouvement ?</p>
-                    <button className="flex text-sm items-center px-6 py-4 gap-4 bg-[#FFFFFF] rounded-full md:text-base">
+                    <button className="cursor-pointer flex text-sm items-center px-6 py-4 gap-4 bg-[#FFFFFF] rounded-full md:text-base">
                         <Image
                             src={`/icons/bird-icon.svg`}
                             width={20}
