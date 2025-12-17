@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Role } from "../types/auth";
+import { Role } from "@/app/types/auth";
 import { mainTitle, mainPicture, formDesktop, explanationSection, benefitsTitles, younivibeBenefits, networks, companyAdvantages, recruiterSpace } from "./contentExplanations";
 
 type ExplanationsProps = {
