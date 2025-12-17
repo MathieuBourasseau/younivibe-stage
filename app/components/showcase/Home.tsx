@@ -4,7 +4,7 @@ import { useState, type ChangeEvent, type MouseEvent } from "react";
 import { CheckboxInput } from "../ui/form/input";
 import { toast } from "sonner";
 
-export default function Home() {
+export default function HomePage() {
 
     const filters = [
         {

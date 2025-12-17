@@ -1,7 +1,7 @@
 'use client'
 
 import { Explanations } from "./components/showcase/Explanations";
-import Home from "./components/showcase/Home";
+import HomePage from "./components/showcase/Home";
 import Missions from "./components/showcase/Missions";
 import { Navigation } from "./components/showcase/Navigation";
 import { useState } from 'react';
