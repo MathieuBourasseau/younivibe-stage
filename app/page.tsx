@@ -7,7 +7,7 @@ import { Navigation } from "./components/showcase/Navigation";
 import { useState } from 'react';
 import React, { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { useSubdomain } from '@/hooks/useSubdomain'
+import { useSubdomain } from "./hooks/useSubdomain";
 import { Role } from "./types/auth";
 
 export default function Home() {
@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div>
       <Navigation onNavigate={setActiveSection} onRoleChange={ (newRole) => setRole(newRole as Exclude<Role, 'ADMIN'>)} activeSection={activeSection} role={role} />
-      {activeSection === 'home' && <Home />}
+      {activeSection === 'home' && <HomePage />}
       {activeSection === 'explanations' && <Explanations role={role} />}
       {activeSection === 'mission' && <Missions role={role} />}
     </div>
