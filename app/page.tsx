@@ -1,7 +1,7 @@
 'use client'
 
 import { Explanations } from "./components/showcase/Explanations";
-import Home
+import Home from "./components/showcase/Home";
 import Missions from "./components/showcase/Missions";
 import { Navigation } from "./components/showcase/Navigation";
 import { useState } from 'react';
@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div>
       <Navigation onNavigate={setActiveSection} onRoleChange={ (newRole) => setRole(newRole as Exclude<Role, 'ADMIN'>)} activeSection={activeSection} role={role} />
-      {activeSection === 'home' && <HomeCandidate />}
+      {activeSection === 'home' && <Home />}
       {activeSection === 'explanations' && <Explanations role={role} />}
       {activeSection === 'mission' && <Missions role={role} />}
     </div>
