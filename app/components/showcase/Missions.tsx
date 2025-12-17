@@ -122,7 +122,7 @@ export default function Missions({ role }: MissionsProps) {
 
             <section className="flex flex-col px-6 py-10  gap-8  lg:items-center lg:justify-between">
                 <div className="flex flex-col gap-6 lg:flex-row-reverse lg:justify-between lg:items-center lg:max-w-[1400px]">
-                    <div className="flex flex-col gap-6 lg:w-1/2">
+                    <div className="flex flex-col gap-6 lg:w-[40%]">
                         <h2 className="text-2xl font-bold md:text-center lg:text-start min-[1200px]:text-[32px]">{currentThirdSection.title.mobile}</h2>
                         {currentThirdSection.subtitle.map((item, index) => (
                             <div
@@ -149,7 +149,7 @@ export default function Missions({ role }: MissionsProps) {
                             ))}
                         </div>
                     </div>
-                    <div className="flex md:justify-center">
+                    <div className="flex md:justify-center lg:w-[60%]">
                         <Image
                             src={currentThirdSection.image[0]}
                             alt=""
@@ -160,9 +160,9 @@ export default function Missions({ role }: MissionsProps) {
                         <Image
                             src={currentThirdSection.image[1]}
                             alt=""
-                            width={310}
+                            width={700}
                             height={25}
-                            className="hidden md:block md:object-contain md:max-w-[600px] md:w-full lg:max-w-[650px]"
+                            className="hidden md:block md:object-contain md:max-w-[500px] md:w-full h-auto"
                         />
 
                     </div>
