@@ -215,7 +215,7 @@ export default function HomePage() {
             <section className="flex flex-col gap-6 justify-center items-center px-4 py-10">
                 <div className="flex flex-col gap-5 items-center justify-center text-center">
                     <h1 className="text-[28px] font-black md:text-[32px]">
-                        Tu as une passion ?
+                        Tu as une passion ? {""}
                         <span className="colored-title">Un engagement social ?</span>
                     </h1>
                     <p className="text-sm md:text-base">
