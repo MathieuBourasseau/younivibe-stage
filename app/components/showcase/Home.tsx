@@ -210,8 +210,7 @@ export default function HomeCandidate() {
 
     return (
         <div>
-            <NavigationCandidate />
-
+            
             {/* SECTION SOCIAL COMMITMENT */}
             <section className="flex flex-col gap-6 justify-center items-center px-4 py-10">
                 <div className="flex flex-col gap-5 items-center justify-center text-center">
