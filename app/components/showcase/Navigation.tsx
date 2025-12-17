@@ -30,12 +30,11 @@ export function Navigation({ onNavigate, onRoleChange, activeSection, role }: Na
             label: "Comment ça marche ?",
             link: "explanations"
         },
-        // Pages en construction - à réactiver plus tard
-        // {
-        //     id: 2,
-        //     label: "Mission",
-        //     link: "mission"
-        // },
+        {
+            id: 2,
+            label: "Mission",
+            link: "mission"
+        },
         // {
         //     id: 3,
         //     label: "Contact",
