@@ -18,19 +18,17 @@ export default function Missions({ role }: MissionsProps) {
 
             {/* INTRO SECTION */}
 
-            <section className="flex flex-col gap-6 py-[10] px-[10%] lg:flex-row lg:items-center lg:gap-8 lg:justify-center lg:p-12">
-                <div className="flex flex-col gap-4 items-start lg:w-1/2 lg:gap-8">
-                    <h1 className="text-[28px] font-bold lg:text-[38px]">
+            <section className="flex flex-col gap-6 py-10 px-[10%] lg:flex-row lg:items-center lg:gap-8 xl:gap-12 lg:justify-center lg:p-12">
+                <div className="flex flex-col gap-4 items-start lg:w-1/2 lg:gap-6 xl:gap-8">
+
+                    <h1 className="text-[28px] font-bold lg:text-[28px] xl:text-[38px] leading-tight">
                         <span className='md:hidden'>{currentFirstSection.title.mobile}</span>
                         <span className='hidden md:block'>{currentFirstSection.title.desktop}</span>
                     </h1>
-
-                    <h3 className="text-lg font-bold lg:text-[20px]">{currentFirstSection.subtitle}</h3>
-
-                    {/* DESCRIPTION PART FIRST SECTION */}
+                    <h3 className="text-lg font-bold lg:text-[19px] xl:text-[20px]">{currentFirstSection.subtitle}</h3>
 
                     {currentFirstSection.description.map((text, index) => (
-                        <p key={index} className="text-sm lg:text-base">
+                        <p key={index} className="text-sm xl:text-base">
                             {text.text}
 
                             {text.boldContent && (
@@ -39,17 +37,14 @@ export default function Missions({ role }: MissionsProps) {
                         </p>
                     ))}
 
-                    {/* LIST PART INTRO SECTION */}
-
                     <ul className="list-disc pl-5 lg:pl-8">
                         {currentFirstSection.list?.map((item, index) => (
-                            <li key={index} className="text-sm lg:text-base">{item.text}</li>
+                            <li key={index} className="text-sm xl:text-base">{item.text}</li>
                         ))}
                     </ul>
                 </div>
 
-                <div className="lg:w-1/2 lg:flex lg:items-center lg:justify-center ">
-
+                <div className="lg:w-1/2 lg:flex lg:items-center lg:justify-center">
                     {currentFirstSection.image && (
                         <>
                             <Image
@@ -57,14 +52,14 @@ export default function Missions({ role }: MissionsProps) {
                                 alt=""
                                 width={420}
                                 height={237}
-                                className="w-full object-contain max-w-[450px] md:max-w-[600px] lg:hidden"
+                                className="w-full h-auto object-contain max-w-[450px] md:max-w-[600px] lg:hidden"
                             />
                             <Image
                                 src={currentFirstSection.image[1]}
                                 alt=""
                                 width={670}
                                 height={237}
-                                className="hidden lg:block object-contain"
+                                className="hidden lg:block w-full h-auto object-contain"
                             />
                         </>
                     )}
