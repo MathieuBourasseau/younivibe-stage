@@ -1,0 +1,356 @@
+.colored-title {
+    background: linear-gradient(90deg, #2366FD 1.57%, #A848E4 96.14%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.search-bar-options-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-bar-options-select {
+    outline: none;
+    cursor: pointer;
+}
+
+.search-form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00DF7A;
+    font-weight: 700;
+    color: var(--color-white);
+    padding: 24px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    cursor: pointer;
+}
+
+.create-offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid #00DF7A;
+    color: #00DF7A;
+    border-radius: 100px;
+    padding: 24px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.profile-card {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.commitment-card {
+    box-shadow: none;
+}
+
+.profile-card-number {
+    color: var(--color-white);
+    width: 44px;
+    height: 44px;
+    background: #A848E4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colored-badge {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.colored-word {
+    background: linear-gradient(90.83deg, #B540EB -2.76%, #00DF7A 113.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-color: white;
+    font-weight: 700;
+}
+
+.equality {
+    position: absolute;
+    top: -65px;
+    left: -50px;
+    font-size: 24px;
+}
+
+.csr {
+    position: absolute;
+    top: -110px;
+    left: 130px;
+    font-size: 15px;
+}
+
+.ecology {
+    position: absolute;
+    top: -70px;
+    left: 250px;
+    font-size: 20px;
+}
+
+.circular-economy {
+    position: absolute;
+    top: -110px;
+    right: 120px;
+    font-size: 16px;
+}
+
+.employment {
+    position: absolute;
+    top: -53px;
+    right: 5px;
+    font-size: 14px;
+}
+
+.civic-engagement {
+    position: absolute;
+    bottom: -85px;
+    left: 10px;
+    font-size: 14px;
+}
+
+.social-bond {
+    position: absolute;
+    bottom: -60px;
+    left: 260px;
+    font-size: 16px;
+}
+
+.solidarity {
+    position: absolute;
+    bottom: -110px;
+    right: 190px;
+    font-size: 20px;
+}
+
+.energy {
+    position: absolute;
+    bottom: -70px;
+    right: 20px;
+    font-size: 24px
+}
+
+.become-partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid #00DF7A;
+    color: #00DF7A;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 100%;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+.colored-subtitle {
+    margin: 0 var(--spacing-sm);
+    background: linear-gradient(90.03deg, #006AFF 15.97%, #1664FC 18.07%, #4E57F6 25.05%, #7A4DF1 31.33%, #9A46ED 36.91%, #AE41EB 41.8%, #B540EB 45.29%, #7E70C8 55.06%, #3AAB9E 68.32%, #10D084 78.09%, #00DF7A 82.97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700
+}
+
+.join-younivibe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background: #1F2351;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    text-align: center;
+    color: var(--color-white);
+    padding: 10px 20px;
+}
+
+.article-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.article-card-label {
+    background-color: #D9B5F5;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A848E4;
+    padding: 5px 10px;
+}
+
+.see-more {
+    font-weight: 700;
+    size: 14px;
+    color: #A848E4;
+    text-decoration: underline;
+}
+
+.select-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 10px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    background: linear-gradient(91.01deg, #2366FD 4.86%, #B540EB 98.98%);
+    color: white;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+}
+
+.select-contact-option {
+    outline: none;
+}
+
+.select-contact-option-value {
+    background: linear-gradient(91.01deg, #2366FD 4.86%, #B540EB 98.98%);
+    color: black;
+}
+
+.send-request {
+    display: flex;
+    align-self: flex-start;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 14px;
+    background-color: #1F2351;
+    border-radius: 50px;
+    color: var(--color-white);
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-section {
+    background-image: url('/home-candidate/background-form.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 16px;
+}
+
+/* Media queries */
+
+@media (1024px <= width <=1400px) {
+    .younivibe-mission-image {
+        width: auto;
+    }
+}
+
+@media (width >=768px) {
+    .article-card-image {
+        height: 220px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .search-form-btn,
+    .create-offer {
+        box-shadow: none;
+    }
+}
+
+@media (width >=1024px) {
+
+    .colored-commitment {
+        background: linear-gradient(90.03deg, #006AFF 15.97%, #1664FC 18.07%, #4E57F6 25.05%, #7A4DF1 31.33%, #9A46ED 36.91%, #AE41EB 41.8%, #B540EB 45.29%, #7E70C8 55.06%, #3AAB9E 68.32%, #10D084 78.09%, #00DF7A 82.97%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 700
+    }
+
+    .form-section {
+        background-image: none;
+    }
+
+    .select-contact {
+        padding: 10px 50px;
+        font-size: 16px;
+    }
+}
+
+@media (1024px < width < 1281px) {
+    .equality {
+        position: absolute;
+        top: -53px;
+        left: -40px;
+        font-size: 18px;
+    }
+
+    .csr {
+        position: absolute;
+        top: -60px;
+        left: 70px;
+        font-size: 12px;
+    }
+
+    .ecology {
+        position: absolute;
+        top: -45px;
+        left: 160px;
+        font-size: 13px;
+    }
+
+    .circular-economy {
+        position: absolute;
+        top: -70px;
+        right: 120px;
+        font-size: 12px;
+    }
+
+    .employment {
+        position: absolute;
+        top: -40px;
+        right: -30px;
+        font-size: 10px;
+    }
+
+    .civic-engagement {
+        position: absolute;
+        bottom: -60px;
+        left: -42px;
+        font-size: 14px;
+    }
+
+    .social-bond {
+        position: absolute;
+        bottom: -50px;
+        left: 170px;
+        font-size: 14px;
+    }
+
+    .solidarity {
+        position: absolute;
+        bottom: -70px;
+        right: 125px;
+        font-size: 12px;
+    }
+
+    .energy {
+        position: absolute;
+        bottom: -55px;
+        right: -30px;
+        font-size: 18px
+    }
+}

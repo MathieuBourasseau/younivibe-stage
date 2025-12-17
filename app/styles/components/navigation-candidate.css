@@ -1,0 +1,259 @@
+.candidate-logo-title {
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    font-size: 32px;
+    background: linear-gradient(89.97deg, var(--color-blue) 52.75%, var(--color-accent) 79.38%, var(--color-secondary) 106%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navigation-register {
+    border-radius: 100px;
+    background: var(--Vert-YV, #00DF7A);
+    color: var(--color-white);
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    transform: translateY(-10px);
+    pointer-events: auto !important;
+    transition: ease-in-out 0.2s;
+    gap: 12px;
+    padding: 7px 10px;
+    opacity: 0;
+    min-width: 250px;
+}
+
+.mobile-menu.open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/* Responsive design for the nav burger */
+
+@media (max-width: 1023px) {
+    .mobile-menu.open {
+        display: flex;
+    }
+}
+
+/* responsive design for desktop */
+
+@media (1024px < width < 1329px) {
+
+    .candidate-logo {
+        padding: 12px 25px;
+    }
+
+    .candidate-logo-title {
+        font-size: 22px;
+    }
+
+    .select-option-container {
+        background-color: var(--color-black);
+        color: var(--color-white);
+        font-weight: 700;
+        font-size: 15px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding: 10px 13px;
+        border-radius: 1000px;
+        margin-right: var(--spacing-xl);
+    }
+
+    ;
+
+    .nav-links {
+        font-size: 14px;
+    }
+
+    .register-login {
+        gap: 8px;
+    }
+
+    .navigation-login {
+        font-size: 15px;
+    }
+
+    .candidate-register {
+        padding: 7px 13px;
+        font-size: 16px;
+    }
+}
+
+@media (1329px < width < 1500px) {
+    .nav-links {
+        font-size: 17px;
+    }
+
+    .navigation-login {
+        font-size: 17px;
+    }
+
+    .candidate-register {
+        font-size: 17px;
+    }
+
+    .select-option-container {
+        background-color: var(--color-black);
+        color: var(--color-white);
+        font-weight: 700;
+        font-size: 17px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding: 10px 13px;
+        border-radius: 1000px;
+        margin-right: var(--spacing-xl);
+    }
+
+    ;
+
+
+}
+
+@media (min-width: 1500px) {
+
+    .mobile-nav-item {
+        max-width: 100%;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ;
+
+    .select-option-container {
+        background-color: var(--color-black);
+        color: var(--color-white);
+        font-weight: 700;
+        font-size: 20px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        padding: 15px 30px;
+        border-radius: 1000px;
+        margin-right: var(--spacing-xl);
+    }
+
+    ;
+
+    .candidate-register {
+        padding: 15px 30px;
+    }
+
+}
+
+/* header {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.candidate-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.candidate-nav-right-part {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.candidate-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px 50px;
+}
+
+.candidate-logo-title {
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    background: linear-gradient(89.97deg, var(--color-blue) 52.75%, var(--color-accent) 79.38%, var(--color-secondary) 106%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+
+
+.candidate-select-option {
+    background-color: var(--color-black);
+    outline: none;
+}
+
+.candidate-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+
+.candidate-login-register {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 316px;
+    height: 62px;
+
+}
+
+
+.candidate-register { 
+    opacity: 1;
+    border-radius: 100px;
+    background: var(--Vert-YV, #00DF7A);
+    color: var(--color-white);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm) var(--spacing-lg);
+}
+
+.login-register-container {
+    display: flex;
+    gap: 27px ;
+}
+
+/* Tablet style */
+
+/* Dropdown animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Mobile style */
