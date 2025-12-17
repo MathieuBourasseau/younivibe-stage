@@ -54,7 +54,7 @@ export function Navigation({ onNavigate, onRoleChange, activeSection, role }: Na
             {
                 id: 2,
                 label: "Inscription",
-                className: "register text-sm font-bold py-[5px] px-[10px] lg:text-xl lg:py-[16px] lg:px-[30px]",
+                className: "navigation-register text-sm font-bold py-[5px] px-[10px] lg:text-xl lg:py-[16px] lg:px-[30px]",
                 href: "http://jobs.younivibe.fr/login?mode=register"
             }
         ],
@@ -109,7 +109,7 @@ export function Navigation({ onNavigate, onRoleChange, activeSection, role }: Na
 
                 {/* Bloc logo */}
                 <div className="candidate-logo flex items-center justify-center shadow-lg  py-6 px-12 gap-2.5 lg:shadow-none">
-                    <Image src="logo-seul-couleur.svg" alt="Younivibe Logo" width={36} height={36} className="candidate-logo-image block" />
+                    <Image src="/navigation/logo-seul-couleur.svg" alt="Younivibe Logo" width={36} height={36} className="candidate-logo-image block" />
                     <button onClick={() => onNavigate('home')} className="candidate-logo-title cursor-pointer">Younivibe</button>
                 </div>
 
@@ -123,7 +123,7 @@ export function Navigation({ onNavigate, onRoleChange, activeSection, role }: Na
                             className={`${isOpen} lg:hidden`}
                             onClick={toggleMenu}>
                             <Image
-                                src={isOpen ? "/close-nav-burger.png" : "/nav-burger.svg"}
+                                src={isOpen ? "/navigation/close-nav-burger.png" : "/navigation/nav-burger.svg"}
                                 alt="Navigation mobile Younivibe"
                                 width={36}
                                 height={36}
