@@ -1,0 +1,40 @@
+{
+    "questionsFAQ": [
+        {
+            "name": "Qu'est-ce que Younivibe ?",
+            "answer": "Actuellement en version bêta, la plateforme de recrutement responsable Younivibe est conçue pour connecter étudiants, entreprises et établissements. Cette version permettra de tester les usages, recueillir des retours concrets, et améliorer l'expérience."
+        },
+        {
+            "name": "Qui peut accéder à cette version ?",
+            "answer": "La bêta est actuellement ouverte à un nombre limité de jeunes talents, entreprises à impact et partenaires académiques. L'objectif est de construire la plateforme avec eux, en mode collaboratif."
+        },
+        {
+            "name": "Quelles sont les fonctionnalités disponibles?",
+            "answer": "Création de profil étudiant avec ajout de projets ou travaux, Consultation d'offres de stages, alternances ou missions, Formulaire de mise en relation (match manuel dans un premier temps), Accès entreprises pour publier une opportunité, Accès établissements à données de suivi"
+        },
+        {
+            "name": "Comment s'inscrire en tant qu'étudiant ?",
+            "answer": "En cliquant sur le bouton \"Connexion\". Il vous suffit de créer votre profil, d'ajouter vos réalisations et de remplir les informations demandées pour pouvoir postuler aux premières offres disponibles."
+        },
+        {
+            "name": "Je suis une entreprise, comment participer ?",
+            "answer": "Vous pouvez créer votre profil entreprise, publier une offre, et être mis en relation avec des profils qualifiés et connectés avec vos valeurs. Vous pouvez publier gratuitement votre offre, en version bêta."
+        },
+        {
+            "name": "Est-ce que c'est gratuit pendant la bêta ?",
+            "answer": "Oui. Toutes les fonctionnalités sont accessibles gratuitement pour les étudiants et les entreprises participantes pendant toute la durée de la phase bêta."
+        },
+        {
+            "name": "Quels types d'offres peut-on trouver sur Younivibe ?",
+            "answer": "Des offres de stages, d'alternances, de missions ponctuelles et premiers emplois, exclusivement proposées par des structures engagées ou à impact positif."
+        },
+        {
+            "name": "Combien de temps dure la version bêta ?",
+            "answer": "La version bêta a une durée de 4 mois, avec des améliorations progressives. Une version publique plus complète sera lancée à la suite de cette phase, selon les retours utilisateurs."
+        },
+        {
+            "name": "Et après la bêta ?",
+            "answer": "Vos retours nous permettront de prioriser les prochaines fonctionnalités. L'objectif est de co-construire une plateforme réellement utile, inclusive et alignée avec les besoins du terrain."
+        }
+    ]
+}

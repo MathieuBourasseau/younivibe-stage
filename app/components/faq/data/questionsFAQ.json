@@ -1,0 +1,20 @@
+{
+    "questionsFAQ": [
+        {
+            "name": "C’est quoi Younivibe ?",
+            "answer": "Younivibe est une plateforme dédiée à révéler les talents étudiants engagés. Elle connecte des jeunes qui veulent avoir de l’impact avec des projets, des entreprises ou des écoles qui partagent cette ambition. C’est un espace pour apprendre, expérimenter et construire un avenir qui a du sens."
+        },
+        {
+            "name": "Je suis étudiant·e, qu’est-ce que ça m’apporte ?",
+            "answer": "Des opportunités concrètes pour t’impliquer dans des projets réels, accéder à des stages ou missions alignés avec tes valeurs, rencontrer une communauté engagée, et développer des compétences utiles pour ton avenir."
+        },
+        {
+            "name": "Et si je représente une entreprise ou une école ?",
+            "answer": "Younivibe vous permet de rencontrer des profils motivés, agiles et conscients des enjeux actuels. C’est un moyen de valoriser votre engagement, d’enrichir vos projets, et de co-construire des expériences à fort impact avec la nouvelle génération."
+        },
+        {
+            "name": "Je suis intéressé·e, c’est quoi la suite ?",
+            "answer": "Rejoignez la phase de pré-lancement. Aidez-nous à construire une plateforme qui place votre engagement au centre. En vous inscrivant maintenant, vous serez parmi les premiers à la tester et à bénéficier d’avantages exclusifs dès sa mise en ligne."
+        }
+    ]
+}
