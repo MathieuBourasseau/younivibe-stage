@@ -1,7 +1,7 @@
 import Image from "next/image";
-import FAQ from "../faq"
+import FAQ from "../faq/FAQ";
 import { useState, type ChangeEvent, type MouseEvent } from "react";
-import { CheckboxInput } from '@/components/ui/form';
+import { CheckboxInput } from "../ui/form/input";
 import { toast } from "sonner";
 
 export default function HomeCandidate() {
